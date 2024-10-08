@@ -1,0 +1,71 @@
+.advertisement-card {
+  max-width: 600px;
+  min-height: 270px;
+  margin: 3% auto;
+  padding: 60px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #00529B;
+  color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.advertisement-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email-input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 300px;
+  font-size: 1rem;
+}
+
+.subscribe-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #000000; 
+}
+
+@media (max-width: 768px) {
+  .advertisement-card {
+    padding: 20px;
+  }
+
+  .logo-image {
+    height: 50px;
+  }
+
+  .email-input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,70 @@
+.auction-queue {
+  max-width: 800px;
+  margin: 3% auto;
+  padding: 8%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  color: #00529B;
+}
+
+.auction-queue h5 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+
+.car-item {
+  display: flex;
+  background: linear-gradient(to right, #000000, #00529B);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.car-image {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-details h6 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.car-specs {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.start-time {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-numbers {
+  margin: 0 5px;
+  cursor: pointer;
+  color: #000000;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.car-details {
+  padding: 20px;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail-image {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.chevron-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #555;
+}
+
+.chevron-icon:hover {
+  color: #000;
+}
+
+.fixed-height-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+.thumbnail-image {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.chevron-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
